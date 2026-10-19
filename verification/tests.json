@@ -1,0 +1,34 @@
+[
+  {
+    "name": "sensor_uart",
+    "sources": [
+      "rtl/*.v"
+    ],
+    "tb": "verification/tb/sensor_uart.sv",
+    "top": "audit_sensor",
+    "pass_marker": "AUDIT SENSOR INTEGRATION PASS",
+    "assets": []
+  },
+  {
+    "name": "sr04",
+    "sources": [
+      "rtl/sr04_controller.v"
+    ],
+    "tb": "verification/tb/sr04.sv",
+    "top": "audit_sr04",
+    "pass_marker": "AUDIT SR04 PASS",
+    "assets": []
+  },
+  {
+    "name": "dht11",
+    "sources": [
+      "rtl/dht11_controller.v",
+      "rtl/tick_gen_us.v",
+      "tb/original/tb_dht11.v"
+    ],
+    "tb": "verification/tb/dht11.sv",
+    "top": "audit_dht",
+    "pass_marker": "TEST PASS",
+    "assets": []
+  }
+]

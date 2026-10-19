@@ -1,0 +1,2 @@
+AUDIT SR04 distances=3 errors=0
+AUDIT SR04 PASS

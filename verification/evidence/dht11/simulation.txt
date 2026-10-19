@@ -1,0 +1,4 @@
+TEST PASS
+humidity    = 60
+temperature = 25
+valid       = 1

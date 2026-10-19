@@ -1,0 +1,2 @@
+AUDIT SENSOR integration modes=4 UART commands=6 statusBytes=21 errors=0
+AUDIT SENSOR INTEGRATION PASS
